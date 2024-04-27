@@ -36,7 +36,7 @@ function Producto() {
     useEffect(() => {
         axios({
             method: "get",
-            url: "http://localhost:8000/producto/" + id,
+            url: "https://d7p0dzf3-8000.uks1.devtunnels.ms/producto/" + id,
         })
             .then((response) => {
                 setProducto(response.data);

@@ -34,7 +34,7 @@ export const SectionProveedores = () => {
         e.preventDefault();
         axios({
             method: "post",
-            url: "http://localhost:8000/proveedor/",
+            url: "https://d7p0dzf3-8000.uks1.devtunnels.ms/proveedor/",
             data: formData
         })
         .then((response) => {

@@ -36,7 +36,7 @@ export const SectionProductos = () => {
         e.preventDefault();
         axios({
             method: "post",
-            url: "http://localhost:8000/producto/",
+            url: "https://d7p0dzf3-8000.uks1.devtunnels.ms/producto/",
             data: formData
         })
             .then((response) => {
